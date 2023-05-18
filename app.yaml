@@ -1,0 +1,8 @@
+runtime: php55
+service: pelanggan
+
+handlers:
+  - url: /Admin
+    static_dir: Admin
+  - url: /User
+    static_dir: User
